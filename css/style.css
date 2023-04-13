@@ -12,19 +12,22 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 15px;
+    position: absolute;
 }
 
 nav ul {
+    list-style: none;
     display: flex;
 }
 
 nav li {
-    padding-left: 1rem;
+    padding-left: 20px;
 }
-
 
 .banner {
     align-items: center;
+    background-image: url(/img/banner.jpg);
+    color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
